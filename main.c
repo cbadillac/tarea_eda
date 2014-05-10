@@ -14,6 +14,8 @@ typedef struct extract_data
 	struct extract_data *next;
 } node, *data_pnode;
 
+
+
 static FILE *file;
 
 double quadratic_sum(data_pnode list,double prom)
